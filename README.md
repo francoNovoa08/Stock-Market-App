@@ -40,5 +40,3 @@ The app uses the Alpha Vantage API to fetch stock market data. The relevant endp
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-For contributions, feature requests, or issues, feel free to submit a pull request or open an issue!
-
