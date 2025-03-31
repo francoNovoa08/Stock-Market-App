@@ -89,6 +89,8 @@ dependencies {
     implementation(libs.converter.moshi)
     implementation(libs.okhttp)
     implementation(libs.logging.interceptor)
+    implementation(libs.moshi.kotlin)
+    ksp(libs.moshi.kotlin.codegen)
 
     // Hilt Compose Navigation
     implementation(libs.androidx.hilt.navigation.compose)

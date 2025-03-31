@@ -1,7 +1,9 @@
 package com.example.stockmarketapp.data.remote.dto
 
 import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
 
+@JsonClass(generateAdapter = true)
 data class CompanyInfoDto(
     @field:Json(name = "Symbol") val symbol: String?,
     @field:Json(name = "Description") val description: String?,

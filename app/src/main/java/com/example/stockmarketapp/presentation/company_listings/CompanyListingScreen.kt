@@ -17,6 +17,7 @@ import com.example.stockmarketapp.navigation.RootNavGraph
 import com.google.accompanist.swiperefresh.SwipeRefresh
 import com.google.accompanist.swiperefresh.rememberSwipeRefreshState
 import com.ramcosta.composedestinations.annotation.Destination
+import com.ramcosta.composedestinations.generated.destinations.CompanyInfoScreenDestination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 
 @Composable
@@ -64,7 +65,9 @@ fun CompanyListingScreen(
                         modifier = Modifier
                             .fillMaxWidth()
                             .clickable {
-                                /* TODO: Navigate to details screen */
+                                navigator.navigate(
+                                    CompanyInfoScreenDestination(company.symbol)
+                                )
                             }
                             .padding(16.dp)
                     )
