@@ -55,4 +55,3 @@ retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-ksp = { id = "com.google.devtools.ksp", version = "2.1.10-1.0.31" }
