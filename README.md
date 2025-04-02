@@ -33,7 +33,7 @@ The app also caches company data locally to counteract the low requests the API 
 ## API Integration
 The app uses the Alpha Vantage API to fetch stock market data. The relevant endpoints are:
 - **Company Listings**: Fetches a list of available companies.
-- ****: Fetches stock data for a specific company.
+- **Company Data**: Fetches stock data for a specific company.
 - **Intraday Data**: Retrieves stock price changes over the last trading day.
 
 ## License
